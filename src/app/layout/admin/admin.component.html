@@ -31,27 +31,27 @@
               <li>
                 <div class="sidebar_toggle"><a href="javascript:;" (click)="toggleOpened()"><i class="ti-menu f-18"></i></a></div>
               </li>
-              <li>
+              <!-- <li>
                 <a href="javascript:;" appToggleFullscreen>
                   <i class="ti-fullscreen"></i>
                 </a>
-              </li>
+              </li> -->
               <li class="mega-menu-top">
                 <a href="javascript:;">
-                  Mega
+                  Menu
                   <i class="ti-angle-down"></i>
                 </a>
                 <ul class="show-notification row">
-                  <li class="col-sm-3">
-                    <h6 class="mega-menu-title">Popular Links</h6>
+                  <li class="col-sm-6">
+                    <h6 class="mega-menu-title">List1</h6>
                     <ul class="mega-menu-links">
-                      <li><a [routerLink]="['/basic/button']">Buttons</a></li>
-                      <li><a [routerLink]="['/map']">Maps</a></li>
-                      <li><a [routerLink]="['/user/profile']">User Information</a></li>
+                      <li><a >Option1</a></li>
+                      <li><a >Option2</a></li>
+                      <li><a >Option3</a></li>
                     </ul>
                   </li>
-                  <li class="col-sm-3">
-                    <h6 class="mega-menu-title">Mailbox</h6>
+                  <li class="col-sm-6">
+                    <h6 class="mega-menu-title">List2</h6>
                     <ul class="mega-mailbox">
                       <li>
                         <a href="javascript:;" class="media">
@@ -100,7 +100,7 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="col-sm-3">
+                  <!-- <li class="col-sm-3">
                     <h6 class="mega-menu-title">Gallery</h6>
                     <div class="row m-b-20">
                       <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/01.jpg" alt="Gallery-1">
@@ -148,12 +148,12 @@
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </li>
             </ul>
             <ul [@mobileMenuTop]="isCollapsedMobile" class="nav-right" [ngClass]="isCollapsedMobile">
-              <li class="header-notification lng-dropdown">
+              <!-- <li class="header-notification lng-dropdown">
                 <a href="javascript:;" id="dropdown-active-item">
                   <img src="assets/images/flags/ENGLISH.jpg" alt=""> English
                 </a>
@@ -179,7 +179,7 @@
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> -->
               <li class="header-notification">
                 <a href="javascript:;">
                   <i class="ti-bell"></i>
@@ -190,7 +190,7 @@
                     <h6>Notifications</h6>
                     <label class="label label-danger">New</label>
                   </li>
-                  <li>
+                  <!-- <li>
                     <div class="media">
                       <img class="d-flex align-self-center img-radius" src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
                       <div class="media-body">
@@ -219,21 +219,21 @@
                         <span class="notification-time">30 minutes ago</span>
                       </div>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </li>
               <li class="user-profile header-notification">
                 <a [routerLink]="['/']">
                   <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                  <span>John Doe</span>
+                  <span>Ramesh Perera</span>
                   <i class="ti-angle-down"></i>
                 </a>
                 <ul class="show-notification profile-notification">
-                  <li>
+                  <!-- <li>
                     <a href="javascript:;">
                       <i class="ti-settings"></i> Settings
                     </a>
-                  </li>
+                  </li> -->
                   <li>
                     <a [routerLink]="['/user']">
                       <i class="ti-user"></i> Profile
@@ -251,11 +251,11 @@
                   </li>
                 </ul>
               </li>
-              <li>
+              <!-- <li>
                 <div class="upgrade-button-header f-left">
                   <a href="https://codedthemes.com/item/guru-able-admin-template/" target="_blank" class="btn btn-primary txt-white p-t-10 p-b-10">Upgrade To Pro</a>
                 </div>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -271,7 +271,7 @@
               <div class="main-menu-header">
                 <img class="img-40 img-radius" src="assets/images/avatar-4.jpg" alt="User-Profile-Image">
                 <div class="user-details">
-                  <span>John Doe</span>
+                  <span>Ramesh Perera</span>
                   <span id="more-details" (click)="toggleOpenedSidebar()">UX Designer<i class="ti-angle-down"></i></span>
                 </div>
               </div>
