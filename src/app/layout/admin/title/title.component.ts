@@ -23,7 +23,7 @@ export class TitleComponent {
             }
           });
         } while (currentRoute);
-        this.titleService.setTitle( 'UOC_Sports | ' + title );
+        this.titleService.setTitle( 'UOC_SPORTS | ' + title );
       });
   }
 }
