@@ -24,9 +24,6 @@ export const AppRoutes: Routes = [
         path: 'bootstrap-table',
         loadChildren: './pages/ui-elements/tables/bootstrap-table/basic-bootstrap/basic-bootstrap.module#BasicBootstrapModule',
       }, {
-        path: 'map',
-        loadChildren: './pages/map/google-map/google-map.module#GoogleMapModule',
-      }, {
         path: 'user',
         loadChildren: './pages/user/profile/profile.module#ProfileModule'
       }, {

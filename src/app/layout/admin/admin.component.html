@@ -285,13 +285,13 @@
                 </ul>
               </div>
             </div>
-            <div class="pcoded-search">
+            <!-- <div class="pcoded-search">
               <span class="searchbar-toggle">  </span>
               <div class="pcoded-search-box ">
                 <input type="text" placeholder="Search">
                 <span class="search-icon"><i class="ti-search" aria-hidden="true"></i></span>
               </div>
-            </div>
+            </div> -->
             <div slimScroll width="100%" height="calc(100% - 80px)" size="4px" color="#fff" opacity="0.3" allowPageScroll="false">
               <div *ngFor="let asideItems of menuItems.getAll()" class="d-color">
                 <div class="pcoded-navigatio-lavel" [attr.menu-title-theme]="menuTitleTheme">{{asideItems.label}}</div>
@@ -374,8 +374,8 @@
                 <app-title></app-title>
                 <app-breadcrumbs></app-breadcrumbs>
                 <div class="page-body">
-                  <router-outlet>
-                    <app-spinner></app-spinner>
+                  <router-outlet>this is where router-outlet comes
+                    <app-spinner>this is where app-spinner comes </app-spinner>
                   </router-outlet>
                 </div>
               </div>

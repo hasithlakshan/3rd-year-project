@@ -80,15 +80,15 @@ const MENUITEMS = [
     ]
   },
   {
-    label: 'Map And Extra Pages ',
+    label: ' Extra Pages ',
     main: [
-      {
-        state: 'map',
-        short_label: 'M',
-        name: 'Maps',
-        type: 'link',
-        icon: 'ti-map-alt'
-      },
+      // {
+      //   state: 'map',
+      //   short_label: 'M',
+      //   name: 'Maps',
+      //   type: 'link',
+      //   icon: 'ti-map-alt'
+      // },
       {
         state: 'authentication',
         short_label: 'A',
@@ -96,12 +96,13 @@ const MENUITEMS = [
         type: 'sub',
         icon: 'ti-id-badge',
         children: [
+          // {
+          //   state: 'login',
+          //   type: 'link',
+          //   name: 'Login',
+          //   target: true
+          // }, 
           {
-            state: 'login',
-            type: 'link',
-            name: 'Login',
-            target: true
-          }, {
             state: 'registration',
             type: 'link',
             name: 'Registration',
@@ -109,14 +110,14 @@ const MENUITEMS = [
           }
         ]
       },
-      {
-        state: 'error',
-        external: 'http://lite.codedthemes.com/guru-able/error.html',
-        name: 'Error',
-        type: 'external',
-        icon: 'ti-layout-list-post',
-        target: true
-      },
+      // {
+      //   state: 'error',
+      //   external: 'http://lite.codedthemes.com/guru-able/error.html',
+      //   name: 'Error',
+      //   type: 'external',
+      //   icon: 'ti-layout-list-post',
+      //   target: true
+      // },
       {
         state: 'user',
         short_label: 'U',
@@ -129,56 +130,56 @@ const MENUITEMS = [
   {
     label: 'Other',
     main: [
-      {
-        state: '',
-        short_label: 'M',
-        name: 'Menu Levels',
-        type: 'sub',
-        icon: 'ti-direction-alt',
-        children: [
-          {
-            state: '',
-            name: 'Menu Level 2.1',
-            target: true
-          }, {
-            state: '',
-            name: 'Menu Level 2.2',
-            type: 'sub',
-            children: [
-              {
-                state: '',
-                name: 'Menu Level 2.2.1',
-                target: true
-              },
-              {
-                state: '',
-                name: 'Menu Level 2.2.2',
-                target: true
-              }
-            ]
-          }, {
-            state: '',
-            name: 'Menu Level 2.3',
-            target: true
-          }, {
-            state: '',
-            name: 'Menu Level 2.4',
-            type: 'sub',
-            children: [
-              {
-                state: '',
-                name: 'Menu Level 2.4.1',
-                target: true
-              },
-              {
-                state: '',
-                name: 'Menu Level 2.4.2',
-                target: true
-              }
-            ]
-          }
-        ]
-      },
+      // {
+      //   state: '',
+      //   short_label: 'M',
+      //   name: 'Menu Levels',
+      //   type: 'sub',
+      //   icon: 'ti-direction-alt',
+      //   children: [
+      //     {
+      //       state: '',
+      //       name: 'Menu Level 2.1',
+      //       target: true
+      //     }, {
+      //       state: '',
+      //       name: 'Menu Level 2.2',
+      //       type: 'sub',
+      //       children: [
+      //         {
+      //           state: '',
+      //           name: 'Menu Level 2.2.1',
+      //           target: true
+      //         },
+      //         {
+      //           state: '',
+      //           name: 'Menu Level 2.2.2',
+      //           target: true
+      //         }
+      //       ]
+      //     }, {
+      //       state: '',
+      //       name: 'Menu Level 2.3',
+      //       target: true
+      //     }, {
+      //       state: '',
+      //       name: 'Menu Level 2.4',
+      //       type: 'sub',
+      //       children: [
+      //         {
+      //           state: '',
+      //           name: 'Menu Level 2.4.1',
+      //           target: true
+      //         },
+      //         {
+      //           state: '',
+      //           name: 'Menu Level 2.4.2',
+      //           target: true
+      //         }
+      //       ]
+      //     }
+      //   ]
+      // }
       {
         state: 'simple-page',
         short_label: 'S',
@@ -187,20 +188,21 @@ const MENUITEMS = [
         icon: 'ti-layout-sidebar-left'
       }
     ]
-  }, {
-    label: 'Support',
-    main: [
-      {
-        state: 'Upgrade To Pro',
-        short_label: 'U',
-        external: 'https://codedthemes.com/item/guru-able-admin-template/',
-        name: 'Upgrade To Pro',
-        type: 'external',
-        icon: 'ti-layout-list-post',
-        target: true
-      }
-    ]
-  }
+  },
+  // {
+  //   label: 'Support',
+  //   main: [
+  //     {
+  //       state: 'Upgrade To Pro',
+  //       short_label: 'U',
+  //       external: 'https://codedthemes.com/item/guru-able-admin-template/',
+  //       name: 'Upgrade To Pro',
+  //       type: 'external',
+  //       icon: 'ti-layout-list-post',
+  //       target: true
+  //     }
+  //   ]
+  // }
 ];
 
 @Injectable()
