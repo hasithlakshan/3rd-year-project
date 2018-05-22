@@ -80,15 +80,8 @@ const MENUITEMS = [
     ]
   },
   {
-    label: ' Extra Pages ',
+    label: ' Users ',
     main: [
-      // {
-      //   state: 'map',
-      //   short_label: 'M',
-      //   name: 'Maps',
-      //   type: 'link',
-      //   icon: 'ti-map-alt'
-      // },
       {
         state: 'authentication',
         short_label: 'A',
@@ -106,7 +99,8 @@ const MENUITEMS = [
             state: 'registration',
             type: 'link',
             name: 'Registration',
-            target: true
+            icon: 'ti-id-badge',
+            // target: true
           }
         ]
       },
